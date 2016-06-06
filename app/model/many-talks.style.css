@@ -1,0 +1,24 @@
+li{
+	margin-left:20px;
+	padding-left:5px;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+li:last-child{
+	margin-bottom:0;
+}
+
+.details{
+	margin-top:20px;
+}
+.details h4{
+	color:#EF7F01;
+}
+.details p{
+	padding:10px 0;
+}
+
+.currently-selected{
+	font-weight:bold;
+	text-decoration:underline;
+}

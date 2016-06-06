@@ -1,0 +1,13 @@
+<ul>
+	<li *ngFor="let t of allTalks" (click)="selectTalk(t)" [class.currently-selected]="selected===t">
+		{{t.shortname}}
+		<i>by {{t.speaker.firstname}} {{t.speaker.lastname}}</i>
+	</li>
+</ul>
+<div class="details" *ngIf="selected">
+	<h4>{{selected.longname}}</h4>
+	<p>
+		{{selected.description}}
+	</p>
+	<i>by {{selected.speaker.firstname}} {{selected.speaker.lastname}}</i>
+</div>

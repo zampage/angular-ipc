@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, sans-serif;
+	color:#292929;
+}
+
+html,body{
+	width:100%;
+	height:auto;
+	background-color:#FFFFFF;
+}
+
+main{
+	padding:5%;
+}
+
+hr{
+	margin-top:5px;
+	margin-bottom:10px;
+}
